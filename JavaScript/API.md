@@ -10,7 +10,8 @@
 ``` async fucntion callApi() {
       const res = await fetch("https://jsonplaceholder.typicode.com/users");
       const users = await res.json();
-    }; ```
+    }; 
+```
     
     
 ### APIを叩くときは`async await`が主流
