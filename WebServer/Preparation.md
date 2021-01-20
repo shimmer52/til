@@ -24,4 +24,5 @@
  
 4. ファイアウォール構築(iptables)
   > iptablesとは一般的なLinuxに搭載されているパケットフィルタの事
-  
+）  - 各種サービスを公開する場合の設定(SSH,DNS,Webサーバー×２）
+  - [ここ](https://www.bigbang.mydns.jp/iptables-x.htm)を参考に内容を整理した
