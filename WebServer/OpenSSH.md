@@ -19,6 +19,6 @@
 　　　　
 　　
 　　　　
-参考にさせていただいたもの
+　参考にさせていただいたもの
 - [Macで公開鍵と秘密鍵を生成する方法](https://qiita.com/wakahara3/items/52094d476774f3a2f619)
 - [SSH公開鍵認証で接続するまで](https://qiita.com/kazokmr/items/754169cfa996b24fcbf5)
