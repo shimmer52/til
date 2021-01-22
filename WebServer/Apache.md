@@ -1,5 +1,5 @@
 # Webサーバー構築/Apache
-** Apacheとは **  
+**Apacheとは**  
 > 世界的に最も普及しているWebサーバ（HTTPサーバ）ソフトウェアの一つ。Apache Software Foundation（Apacheソフトウェア財団）が開発しており、オープンソースソフトウェアとして公開している。
 
 ***
