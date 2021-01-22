@@ -4,15 +4,16 @@
 
 ***
 
-[CentOSで自宅サーバー構築](https://centossrv.com/apache.shtml)より
-``` - CGIは任意のディレクトリで実行できるようにする
-- SSIは拡張子がshtmlの場合のみ実行できるようにする
-- .htaccessを使用できるようにする
-- PHPを使用できるようにする
+[CentOSで自宅サーバー構築](https://centossrv.com/apache.shtml)より  
+``` 
+- CGIは任意のディレクトリで実行できるようにする  
+- SSIは拡張子がshtmlの場合のみ実行できるようにする  
+- .htaccessを使用できるようにする  
+- PHPを使用できるようにする  
 ```
 
-1.Apacheインストール：`yum -y install httpd php php-mbstring`
-2.Apache設定　　
-※サーバー名は指定せず使用(#は取らない）
-※SetEnvIfの"I"を"l"とタイポしていた
-※Apacheの再起動は`apachectl restart`
+1.Apacheインストール：`yum -y install httpd php php-mbstring`  
+2.Apache設定  
+※サーバー名は指定せず使用(#は取らない）  
+※SetEnvIfの"I"を"l"とタイポしていた  
+※Apacheの再起動は`apachectl restart`  
