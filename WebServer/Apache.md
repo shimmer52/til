@@ -11,8 +11,16 @@
 - .htaccessを使用できるようにする  
 - PHPを使用できるようにする  
 ```
+※SSI：Server Side Includes[（参考）](https://designsupply-web.com/media/knowledgeside/3370/)　　
+ウェブサーバー内で実行することができる機能。例えば、変数の値を出力したり、Linuxのコマンドを実行したり、外部ファイルをインクルードしたりすることができる。　　
+※CGI：Common Gateway Interface[（参考）](infraexpert.com/study/tcpip16.5.html)  
+クライアント側のWebブラウザの要求に応じてWebサーバが外部プログラムを呼び出して、その実行結果がHTTPを介してクライアントのWebブラウザに送信される仕組みのこと。  
+  
+***
 
 1.Apacheインストール：`yum -y install httpd php php-mbstring`  
+※このとき標準で入るのはPHP5.4だった→7に入れ直し[(参考)](https://www.rem-system.com/centos-httpd-php73/)  
+  
 2.Apache設定  
 ※サーバー名は指定せず使用(#は取らない）  
 ※SetEnvIfの"I(アイ）"を"l（エル）"とタイポしていた（エラーの確認に`service httpd configtest`)   
