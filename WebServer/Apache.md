@@ -15,5 +15,5 @@
 1.Apacheインストール：`yum -y install httpd php php-mbstring`  
 2.Apache設定  
 ※サーバー名は指定せず使用(#は取らない）  
-※SetEnvIfの"I(アイ）"を"l（エル）"とタイポしていた  
+※SetEnvIfの"I(アイ）"を"l（エル）"とタイポしていた（エラーの確認に`service httpd configtest`)   
 ※Apacheの再起動は`apachectl restart`  
