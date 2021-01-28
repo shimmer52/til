@@ -25,3 +25,10 @@
 ※サーバー名は指定せず使用(#は取らない）  
 ※SetEnvIfの"I(アイ）"を"l（エル）"とタイポしていた（エラーの確認に`service httpd configtest`)   
 ※Apacheの再起動は`apachectl restart`  
+
+3.サーバー証明書の発行  
+**Certbot**  
+取得に使ったコマンドは  
+``` ertbot certonly --webroot -w ドキュメントルート -m メールアドレス -d Webサーバー名 --agree-tos ```  
+ドキュメントルートは/var/www/html（任意のものでOK）  
+Webサーバー名を指定しなければならないため、ドメインを取得しDNSサーバーに登録した（Freenom：無料）  
