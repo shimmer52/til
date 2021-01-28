@@ -32,3 +32,4 @@
 ``` ertbot certonly --webroot -w ドキュメントルート -m メールアドレス -d Webサーバー名 --agree-tos ```  
 ドキュメントルートは/var/www/html（任意のものでOK）  
 Webサーバー名を指定しなければならないため、ドメインを取得しDNSサーバーに登録した（Freenom：無料）  
+TSLのバージョンによりSSL Server testの判定がBだったためssh_config内で設定し直し：[参考](https://blog.apar.jp/web/10025/)
