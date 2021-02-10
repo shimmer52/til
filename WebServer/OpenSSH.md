@@ -18,8 +18,8 @@
     ※今回既にポートの変更を行っていたため上記コマンドに`-p [ポート番号]`を追加でできた　　
    　　
      
-※一般ユーザーについてsudo設定しておく  
-https://manual.sakura.ad.jp/vps/support/security/firstsecurity.html
+- 一般ユーザーについてsudo設定しておく  
+https://manual.sakura.ad.jp/vps/support/security/firstsecurity.html  
 　　
 ---
 　参考にさせていただいたもの
