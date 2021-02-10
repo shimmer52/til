@@ -11,7 +11,7 @@
 - .htaccessを使用できるようにする  
 - PHPを使用できるようにする  
 ```
-※SSI：Server Side Includes[（参考）](https://designsupply-web.com/media/knowledgeside/3370/)　　
+※SSI：Server Side Includes[（参考）](https://designsupply-web.com/media/knowledgeside/3370/)  
 ウェブサーバー内で実行することができる機能。例えば、変数の値を出力したり、Linuxのコマンドを実行したり、外部ファイルをインクルードしたりすることができる。　
 
 
