@@ -12,9 +12,13 @@
 - PHPを使用できるようにする  
 ```
 ※SSI：Server Side Includes[（参考）](https://designsupply-web.com/media/knowledgeside/3370/)　　
-ウェブサーバー内で実行することができる機能。例えば、変数の値を出力したり、Linuxのコマンドを実行したり、外部ファイルをインクルードしたりすることができる。　　
+ウェブサーバー内で実行することができる機能。例えば、変数の値を出力したり、Linuxのコマンドを実行したり、外部ファイルをインクルードしたりすることができる。　
+
+
 ※CGI：Common Gateway Interface[（参考）](infraexpert.com/study/tcpip16.5.html)  
 クライアント側のWebブラウザの要求に応じてWebサーバが外部プログラムを呼び出して、その実行結果がHTTPを介してクライアントのWebブラウザに送信される仕組みのこと。  
+  
+  
   
 ***
 
